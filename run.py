@@ -26,7 +26,7 @@ def about_member(member_name):
             if obj["url"] == member_name:
                 member = obj
 
-    return "<h1>" + member["name"] + "</h1"
+    return "<h1>" + member["name"] + "</h1>"
 
 @app.route("/contact")
 def contact():
